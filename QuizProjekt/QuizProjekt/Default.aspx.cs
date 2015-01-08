@@ -11,7 +11,6 @@ namespace QuizProjekt
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //TEST
         }
     }
 }
