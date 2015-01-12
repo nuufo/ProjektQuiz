@@ -4,19 +4,19 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="container">
         <div id="test-name">
-            <asp:TextBox ID="txtTestName" runat="server">Test name</asp:TextBox>
+            <asp:TextBox ID="txtTestName" runat="server">Test Name</asp:TextBox>
         </div>
         <div id="Question-One">
             <div class="Question-Title">
                 <asp:TextBox ID="txtTitleOne" runat="server">Title</asp:TextBox>
             </div>
             <div class="Question-Desc">
-                <asp:TextBox ID="txtDescOne" runat="server">Desc</asp:TextBox>
+                <asp:TextBox ID="txtDescOne" runat="server">Description</asp:TextBox>
             </div>
             <div class="Question-Answers">
-                <asp:TextBox ID="txtAlt1" runat="server">Alt1</asp:TextBox>
-                <asp:TextBox ID="txtAltX" runat="server">Alt2</asp:TextBox>
-                <asp:TextBox ID="txtAlt2" runat="server">Alt3</asp:TextBox>
+                <asp:TextBox ID="txtAlt1" runat="server">Alternative 1</asp:TextBox>
+                <asp:TextBox ID="txtAltX" runat="server">Alternative X</asp:TextBox>
+                <asp:TextBox ID="txtAlt2" runat="server">Alternative 2</asp:TextBox>
                 <br />
             </div>
         </div>
