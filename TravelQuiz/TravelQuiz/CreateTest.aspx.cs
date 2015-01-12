@@ -27,7 +27,7 @@ namespace TravelQuiz
 
             var choiceOneQuestionOne = new Option();
             choiceOneQuestionOne.OptionChar = "1";
-            choiceOneQuestionOne.OptionText = txtAlt1.Text;
+            choiceOneQuestionOne.OptionText =  txtAlt1.Text;
 
             var choiceTwoQuestionOne = new Option();
             choiceTwoQuestionOne.OptionChar = "X";
