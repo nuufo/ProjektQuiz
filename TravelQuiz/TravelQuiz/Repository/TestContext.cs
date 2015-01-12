@@ -17,4 +17,5 @@ namespace TravelQuiz.Repository
         public DbSet<Test> Tests { get; set; }
 
     }
+   
 }
