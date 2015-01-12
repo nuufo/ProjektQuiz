@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OnlineTest {
+namespace TravelQuiz {
     
     
     public partial class CreateTest {
