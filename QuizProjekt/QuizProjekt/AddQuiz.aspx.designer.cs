@@ -7,11 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QuizProjekt
-{
-
-    public partial class About
-    {
-
+namespace QuizProjekt {
+    
+    
+    public partial class About {
     }
 }

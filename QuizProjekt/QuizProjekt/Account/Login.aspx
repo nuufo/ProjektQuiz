@@ -1,12 +1,12 @@
-﻿<%@ Page Title="Log in" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="QuizProjekt.Account.Login" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="QuizProjekt.Account.Login" %>
 <%@ Register Src="~/Account/OpenAuthProviders.ascx" TagPrefix="uc" TagName="OpenAuthProviders" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">
-        <h1><%: Title %>.</h1>
+        <h1><%: Title %></h1>
     </hgroup>
     <section id="loginForm">
-        <h2>Use a local account to log in.</h2>
+        <h2>Admin Login</h2>
         <asp:Login runat="server" ViewStateMode="Disabled" RenderOuterTable="false">
             <LayoutTemplate>
                 <p class="validation-summary-errors">
@@ -35,13 +35,19 @@
             </LayoutTemplate>
         </asp:Login>
         <p>
-            <asp:HyperLink runat="server" ID="RegisterHyperLink" ViewStateMode="Disabled">Register</asp:HyperLink>
-            if you don't have an account.
-        </p>
+            &nbsp;</p>
     </section>
 
     <section id="socialLoginForm">
-        <h2>Use another service to log in.</h2>
-        <uc:OpenAuthProviders runat="server" ID="OpenAuthLogin" />
-    </section>
+        <h2>Hurry up, QUIZ TIME!</h2>
+        <br />
+        Where&#39;s the Red S....?<br />
+        <br />
+        What&#39;s the captal city of...?<br />
+        <br />
+        What colors are included in the flag of...?<br />
+        <br />
+        In what year did...?<br />
+        <br />
+        The national dish of...?</section>
 </asp:Content>
