@@ -6,6 +6,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
 using QuizProjekt;
+using QuizProjekt.Repository;
 
 namespace QuizProjekt
 {
@@ -13,6 +14,8 @@ namespace QuizProjekt
     {
         void Application_Start(object sender, EventArgs e)
         {
+            var x = new QuizDb().Tests.ToString();
+
             // Code that runs on application startup
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterOpenAuth();

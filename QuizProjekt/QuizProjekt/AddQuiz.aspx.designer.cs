@@ -10,6 +10,6 @@
 namespace QuizProjekt {
     
     
-    public partial class About {
+    public partial class AddQuiz {
     }
 }
