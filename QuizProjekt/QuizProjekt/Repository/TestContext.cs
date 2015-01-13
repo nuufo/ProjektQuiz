@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Security.Permissions;
 using System.Web;
-using TravelQuiz.Models;
+using QuizProjekt.Models;
 
-namespace TravelQuiz.Repository
+namespace QuizProjekt.Repository
 {
     public class TestContext : DbContext
     {

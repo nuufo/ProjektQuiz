@@ -1,2 +1,128 @@
-﻿body {
+﻿header {
+display: block;
+}
+
+header .content-wrapper {
+padding-top: 20px; 
+}
+    
+.content-wrapper {
+padding-right: 10px;
+padding-left: 10px;
+}
+
+.content-wrapper {
+margin: 0 auto;
+max-width: 960px;
+}
+
+header .float-right {
+float: none;
+}
+
+.float-right {
+float: right;
+}
+
+#login {
+font-size: .85em;
+margin: 0 0 12px;
+text-align: center;
+}
+
+#login {
+display: block;
+font-size: .85em;
+margin: 0 0 10px;
+text-align: right;
+}
+
+section {
+display: block;
+}
+
+nav {
+margin-bottom: 5px;
+}
+
+nav {
+display: block;
+}
+
+ul#menu {
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+ul#menu {
+font-size: 1.3em;
+font-weight: 600;
+margin: 0 0 5px;
+padding: 0;
+text-align: right;
+}
+
+ul#menu li {
+margin: 0;
+padding: 0;
+}
+
+
+ul#menu li {
+display: inline;
+list-style: none;
+padding-left: 15px;
+}
+
+ul#menu li a {
+background: none;
+color: #999;
+text-decoration: none;
+        }
+
+a:link {
+color: #333;
+}
+
+a {
+color: #333;
+outline: none;
+padding-left: 3px;
+padding-right: 3px;
+text-decoration: underline;
+}
+
+#body {
+background-color: #efeeef;
+clear: both;
+padding-bottom: 35px;
+}
+
+.main-content {
+background-position: 10px 0;
+}
+
+.main-content {
+background: url('http://localhost:28684/Images/accent.png') no-repeat;
+padding-left: 10px;
+padding-top: 30px;
+}
+
+footer {
+text-align: center;
+height: auto;
+padding: 10px 0;
+}
+
+footer {
+clear: both;
+background-color: #e2e2e2;
+font-size: .8em;
+height: 100px;
+}
+
+
+footer {
+    display: block;
 }

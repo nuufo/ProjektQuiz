@@ -5,8 +5,7 @@ using System.Web;
 
 namespace QuizProjekt.Models
 {
-    public class Role
+    public class Statistic
     {
-
     }
 }
