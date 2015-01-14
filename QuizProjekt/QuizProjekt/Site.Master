@@ -59,8 +59,8 @@
                 <nav>
                     <ul id="menu">
                         <li><a runat="server" href="~/">Quiz</a></li>
-                        <li><a runat="server" href="~/AddQuiz">Add Quiz</a></li>
-                        <li><a runat="server" href="~/Contact">Edit</a></li>
+                        <li><a runat="server" href="~/AddQuiz.aspx">Add Quiz</a></li>
+                        <li><a runat="server" href="~/EditQuiz.aspx">Edit</a></li>
                     </ul>
                 </nav>
             </div>
