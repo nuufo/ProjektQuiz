@@ -5,7 +5,6 @@
             <hgroup class="title">
                 <h1>Add Quiz</h1>
             </hgroup>
-            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
         </div>
     </section>
 </asp:Content>
@@ -14,28 +13,16 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <br />
     <br />
-    <asp:Label ID="Label1" runat="server" Text="Title"></asp:Label>
+    <asp:Label ID="lblQuizName" runat="server" Text="Quiz Name"></asp:Label>
     <br />
-    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+    <asp:TextBox ID="txtQuizName" runat="server"></asp:TextBox>
     <br />
-    <asp:Label ID="Label2" runat="server" Text="Question"></asp:Label>
+    <asp:Label ID="lblQuizDesc" runat="server" Text="Description"></asp:Label>
     <br />
-    <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
-    <br />
-    <asp:Label ID="CorrectAnswer" runat="server" Text="1"></asp:Label>
-    <br />
-    <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
-    <br />
-    <asp:Label ID="Label4" runat="server" Text="x"></asp:Label>
-    <br />
-    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
-    <br />
-    <asp:Label ID="Label5" runat="server" Text="2"></asp:Label>
-    <br />
-    <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+    <asp:TextBox ID="txtDescription" runat="server"></asp:TextBox>
     <br />
     <br />
-    <asp:Button ID="Button1" runat="server" Text="Button" />
-    <br />
+    <asp:ObjectDataSource ID="ObjectDataSource1" runat="server"></asp:ObjectDataSource>
+    <asp:Button ID="btnAddQuiz" runat="server" Text="Add Quiz" OnClick="btnAddQuiz_Click" />
     <br />
 </asp:Content>

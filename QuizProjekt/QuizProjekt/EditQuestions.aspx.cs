@@ -7,28 +7,32 @@ using System.Web.UI.WebControls;
 using QuizProjekt.Models;
 using QuizProjekt.Services;
 
+
 namespace QuizProjekt
 {
-    public partial class AddQuiz : System.Web.UI.Page
+    public partial class EditQuestions : System.Web.UI.Page
     {
-        private int _testid;
         private TestService _service = new TestService();
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void btnAddQuiz_Click(object sender, EventArgs e)
+        protected void btnAddQuestion_Click(object sender, EventArgs e)
         {
-            var test = new Test
+            var question = new Question
             {
-                Name = txtQuizName.Text,
-                Description = txtDescription.Text
+
+                QuestionNumber = int.Parse(txtQuestionNumber.Text),
+                QuestionText = txtQuestionText.Text,
+                Points = int.Parse(txtPoints.Text),
+
             };
-            _service.SaveTest(test);
+
+
+
+            _service.SaveQuestion(question, Utilities.ConverToInt(Request.QueryString["id"]) );
             Response.Redirect("EditQuiz.aspx");
         }
-
-       
     }
 }
