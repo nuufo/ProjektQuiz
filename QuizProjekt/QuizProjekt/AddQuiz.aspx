@@ -35,7 +35,7 @@
     <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
     <br />
     <br />
-    <asp:Button ID="Button1" runat="server" Text="Button" />
+    <asp:Button ID="SaveBtn" runat="server" Text="Save " OnClick="SaveBtn_Click" />
     <br />
     <br />
 </asp:Content>
