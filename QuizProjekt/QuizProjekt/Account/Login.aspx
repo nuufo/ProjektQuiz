@@ -12,7 +12,7 @@
                 <p class="validation-summary-errors">
                     <asp:Literal runat="server" ID="FailureText" />
                 </p>
-                <fieldset>
+                <fieldset> 
                     <legend>Log in Form</legend>
                     <ol>
                         <li>
