@@ -187,6 +187,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="EditQuestions.aspx" />
     <Content Include="EditQuiz.aspx" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
@@ -285,6 +286,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EditQuestions.aspx.cs">
+      <DependentUpon>EditQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditQuestions.aspx.designer.cs">
+      <DependentUpon>EditQuestions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EditQuiz.aspx.cs">
       <DependentUpon>EditQuiz.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -317,6 +325,7 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="Utilities.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
